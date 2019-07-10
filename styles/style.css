@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  background: #660000;
+  background: #424242;
   color: #878787;
   font-family: overpass;
 }
@@ -36,9 +36,10 @@ a {
 }
 
 #card {
-  width: 621px;
+  width: 100%;
   height: 300px;
   display: inline-flex;
+  background: #660000;
 
   position: absolute;
   top:0;
@@ -61,10 +62,10 @@ a {
 
 .vert-div {
   display: inline-block;
-  width: 1px;
+  width: 5px;
   height: 300px;
   border: 5px;
-  background: white;
+  background: #424242;
   margin: 0px 10px 0px 10px;
 }
 
