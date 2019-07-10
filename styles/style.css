@@ -29,8 +29,8 @@ a {
 }
 .icon {
   filter: invert(80%);
-  height: 25px;
-  width: 25px;
+  height: 32px;
+  width: 32px;
   padding: 7px;
 }
 .filter {
