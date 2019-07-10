@@ -1,8 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
-  background: #424242;
-  color: #878787;
+  background: #777;
+  color: white;
   font-family: overpass;
 }
 div {
@@ -17,18 +17,18 @@ h1 {
   margin: 1px;
 }
 a {
-  color: #878787;
+  color: white;
 }
 
 #logo {
-  filter: invert(50%);
+  /*filter: invert(50%);*/
   margin: 8px;
   width: 284px;
   height: 284px;
 }
 
 .icon {
-  filter: invert(50%);
+  /*filter: invert(50%);*/
   height: 32px;
   width: 32px;
   padding: 7px;
@@ -38,7 +38,7 @@ a {
   width: 100%;
   height: 300px;
   display: inline-flex;
-  background: #660000;
+  background: #e00;
 
   position: absolute;
   top:0;
@@ -64,7 +64,7 @@ a {
   width: 5px;
   height: 300px;
   border: 5px;
-  background: #424242;
+  background: #777;
   margin: 0px 10px 0px 10px;
 }
 
