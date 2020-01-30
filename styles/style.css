@@ -4,7 +4,6 @@ body, html {
   background: #777;
   color: #222;
   font-family: overpass;
-  overflow-y: hidden;
 }
 p {
   font-size: 18px;
@@ -16,10 +15,13 @@ h1 {
 }
 h2 {
   font-size: 24px;
-  margin: 1px;
+  margin: 5px;
 }
 a {
   color: #222;
+}
+p {
+  margin: 10px 10px;
 }
 
 .logo {
@@ -49,10 +51,12 @@ a {
 }
 
 .card {
-  width: 300px;
+  width: 30%;
+  min-width: 300px;
+  max-width: 750px;
   background: white;
   padding: 0px;
-  margin: 20px 10px auto 10px;
+  margin: 10px auto;
   height: 400px;
   overflow: hidden
   display: inline-block;
@@ -60,17 +64,15 @@ a {
 
 .contents {
   display: block;
-  width: 300px;
+  width: 100%;
   padding: 0px;
   margin: 0px;
   text-align: center;
 }
 .right {
   text-align: left;
-  padding: 10px 10px 0px 10px;
-  width: 280px;
   overflow-y: auto;
-  height: 240px;
+  height: 250px;
 }
 .left {
   height: 150px;
