@@ -27,6 +27,7 @@ a {
   max-height: 150px;
   max-width: 300px;
   box-sizing: border-box;
+  height: 100%;
 }
 .icon {
   filter: invert(80%);
@@ -71,6 +72,9 @@ a {
   padding: 10px 10px 0px 10px;
   width: 280px;
 }
+.left {
+  height: 150px;
+ }
 
 .div {
   display: block;
