@@ -51,13 +51,11 @@ a {
 .card {
   width: 300px;
   background: white;
-
   padding: 0px;
-  /* Card Grid */
-  /* margin: 10px 10px auto 10px; */
-  /* Card Stack */
-  margin: 100px 10px auto 10px;
-  height: 100%;
+  margin: 20px 10px auto 10px;
+  height: 400px;
+  overflow: hidden
+  display: inline-block;
 }
 
 .contents {
@@ -71,6 +69,8 @@ a {
   text-align: left;
   padding: 10px 10px 0px 10px;
   width: 280px;
+  overflow-y: auto;
+  height: 240px;
 }
 .left {
   height: 150px;
@@ -103,10 +103,8 @@ a {
 #body {
   width: 100%;
   /* Card Grid */
-  /*margin-top: 100px;
+  margin-top: 70px;
   display: flex;
   flex-wrap: wrap;*/
-  /* Card Stack */
-  display: -webkit-inline-box;
   height: 100%
 }
